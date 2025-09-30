@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --White: hsl(0, 0%, 100%);
+  --Slate300: hsl(212, 45%, 89%);
+  --Slate500: hsl(216, 15%, 48%);
+  --Slate900: hsl(218, 44%, 22%);
+
+  /* Typography */
+  --para-FontSize: clamp(1rem, .9rem + 0.5vw, 1rem);
+  --heading-FontSize: clamp(1.5rem, .9rem + .5vw, 2rem);
+
+  --FW400: 400;
+  --FW700: 700;
+  --fontfamily: "Outfit", sans-serif;
+}
+
+body {
+  font-family: var(--fontfamily);
+  background-color: var(--Slate300);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+.QR-code {
+  background-color: var(--White);
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  max-width: clamp(320px, 25vw, 330px);
+  padding: 1rem;
+  text-align: center;
+}
+
+.QR-code img {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.QR-code h2 {
+  font-size: var(--heading-FontSize);
+  font-weight: var(--FW700);
+  color: var(--Slate900);
+  margin: 1rem 0 0.75rem;
+}
+
+.QR-code p {
+  font-size: var(--para-FontSize);
+  color: var(--Slate500);
+  font-weight: var(--FW400);
+  padding: 0 .5rem;
+  margin-bottom: 1.5rem;
+}
