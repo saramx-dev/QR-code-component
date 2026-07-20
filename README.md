@@ -26,8 +26,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository link](https://github.com/saramx-dev/QR-code-component?tab=readme-ov-file)
+- Live Site URL: [Click here](https://saramx-dev.github.io/QR-code-component/)
 
 ## My process
 
